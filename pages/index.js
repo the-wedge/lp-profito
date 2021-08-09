@@ -44,7 +44,7 @@ export default function Home() {
           <div className="w-full md:w-3/5 text-center">
             <div className="container">
               <h1 className="text-5xl"> What is Lorem Ipsum?</h1>
-              <img className="w-20 block m-auto rounded shadow-md mt-8 mb-3" src="https://source.unsplash.com/random" />
+              <img className="w-28 block m-auto rounded shadow-md mt-8 mb-3" src="https://source.unsplash.com/random" />
 
               <p className="pt-5"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
               <a href="#banner">
@@ -58,9 +58,16 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className=" flex items-center bg-gray-500 text-white">
-        <img className="w-20 block m-auto rounded shadow-md mt-8 mb-3" src="https://source.unsplash.com/random" />
+      <footer className=" flex flex-col items-center bg-gray-500 text-white py-14">
+        <div className="w-full text-center">
+          <img className="w-24 block m-auto rounded shadow-md" src="https://source.unsplash.com/random" />
+        </div>
+        <div className=" flex flex-wrap text-center">
+          <img className="w-8 block m-auto rounded shadow-md mt-8 mx-3" src="https://source.unsplash.com/random" />
+          <img className="w-8 block m-auto rounded shadow-md mt-8 mx-3" src="https://source.unsplash.com/random" />
+          <img className="w-8 block m-auto rounded shadow-md mt-8 mx-3" src="https://source.unsplash.com/random" />
 
+        </div>
       </footer>
 
 
