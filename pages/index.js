@@ -8,10 +8,10 @@ export default function Home() {
     <main>
       <div className="bg-cover bg-center bg-no-repeat" 
           style={{ backgroundImage: `url("https://source.unsplash.com/random")` }}> 
-        <div className="flex flex-wrap items-center justify-center h-screen">
+        <div className="flex flex-wrap items-center justify-center min-h-screen">
           <div className=" w-full lg:w-2/5 ">
             <h1 className="text-6xl text-white px-8 pt-8 pb-3 font-bold"> Investidor Profitto</h1>
-            <h3 className="text-3xl text-white px-8 pt-3 pb-8"> Determinado, sonhador, exclusivo.</h3>
+            <p className="text-3xl text-white px-8 pt-3 pb-8"> Determinado, sonhador, exclusivo.</p>
           </div>
           <div className="w-full lg:w-2/5">
             <Form />

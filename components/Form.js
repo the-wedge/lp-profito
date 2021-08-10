@@ -38,7 +38,7 @@ export default function Form() {
             }).then(function() {
                 window.location = '/obg';
             })
-            
+
             setSubmitted(true) 
             setName('')
             setEmail('')
@@ -106,7 +106,7 @@ export default function Form() {
                 </div>
                 <div className="flex items-center justify-between">
                     <input 
-                        className="bg-yellow-700 hover:bg-opacity-75 text-white py-2 px-6 my-5" 
+                        className="bg-yellow-700 hover:bg-opacity-75 text-white py-2 px-6 my-5 cursor-pointer" 
                         type='submit' 
                     />
                 </div>
