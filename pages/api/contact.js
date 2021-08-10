@@ -7,7 +7,7 @@ export default function (req, res) {
       host: "smtp.gmail.com",
          auth: {
               user: 'profito.api@gmail.com',
-              pass: process.env.password,
+              pass: 'ContasTW@2021',
            },
       secure: true,
     });
