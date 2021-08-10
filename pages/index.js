@@ -4,6 +4,7 @@ import Button from '../components/Button'
 
 export default function Home() {
   return (
+    
     <main>
       <div id="banner" className="bg-cover bg-center bg-no-repeat" 
           style={{ backgroundImage: `url("https://source.unsplash.com/random")` }}> 
@@ -66,12 +67,8 @@ export default function Home() {
           <img className="w-8 block m-auto rounded shadow-md mt-8 mx-3" src="https://source.unsplash.com/random" />
           <img className="w-8 block m-auto rounded shadow-md mt-8 mx-3" src="https://source.unsplash.com/random" />
           <img className="w-8 block m-auto rounded shadow-md mt-8 mx-3" src="https://source.unsplash.com/random" />
-
         </div>
       </footer>
-
-
     </main>
-     
   )
 }
