@@ -16,7 +16,7 @@ export default function Form() {
     let data = {
         name,
         email,
-        phone
+        phone,
     }
 
     fetch('api/contact', {
@@ -29,19 +29,33 @@ export default function Form() {
     }).then((res) => {
         console.log('Response received')
         if (res.status === 200) {
-
+            
             Swal.fire({
                 icon: 'success',
                 title: 'Mensagem enviada com sucesso!',
                 showConfirmButton: false,
                 timer: 3000
+            }).then(function() {
+                window.location = '/obg';
             })
-
+            
             setSubmitted(true) 
             setName('')
             setEmail('')
             setPhone('')
         }
+
+        else {
+
+            Swal.fire({
+                icon: 'error',
+                title: 'Erro ao enviar sua mensagem, tente novamente!',
+                showConfirmButton: false,
+                timer: 3000
+            })
+        
+        }
+
     })
   }
 
