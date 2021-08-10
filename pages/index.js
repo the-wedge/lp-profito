@@ -6,7 +6,7 @@ export default function Home() {
   return (
     
     <main>
-      <div id="banner" className="bg-cover bg-center bg-no-repeat" 
+      <div className="bg-cover bg-center bg-no-repeat" 
           style={{ backgroundImage: `url("https://source.unsplash.com/random")` }}> 
         <div className="flex flex-wrap items-center justify-center h-screen">
           <div className=" w-full lg:w-2/5 ">
@@ -29,7 +29,7 @@ export default function Home() {
             <div className="container">
               <h1 className="text-5xl"> What is Lorem Ipsum?</h1>
               <p className="pt-5"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-              <a href="#banner">
+              <a href="#">
                 <Button
                 name="Saiba mais"
                 type="button"
@@ -48,7 +48,7 @@ export default function Home() {
               <img className="w-28 block m-auto rounded shadow-md mt-8 mb-3" src="https://source.unsplash.com/random" />
 
               <p className="pt-5"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-              <a href="#banner">
+              <a href="#">
                 <Button
                 name="Faça parte da equipe"
                 type="button"
